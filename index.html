@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Portfolio Filtering</title>
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<h2>PORTAFOLIO</h2>
+<div id="myBtnContainer">
+  <button id="btn1"class="btn active" onclick="filterSelection('ALL')"> Mostrar Todos</button>
+  <button id="btn2"class="btn" onclick="filterSelection('NATURE')"> Naturaleza</button>
+  <button id="btn3"class="btn" onclick="filterSelection('CARS')"> Autos</button>
+  <button id="btn4"class="btn" onclick="filterSelection('PEOPLE')"> Gente</button>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column nature">
+    <div class="content">
+      <img src="img/mountains.jpg" alt="Montañas" style="width:100%">
+      <h4>Montañas</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="img/lights.jpg" alt="Luces" style="width:100%">
+      <h4>Luces</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column nature">
+    <div class="content">
+      <img src="img/nature.jpg" alt="Naturaleza" style="width:100%">
+      <h4>Bosque</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column cars">
+    <div class="content">
+      <img src="img/cars1.jpg" alt="Car" style="width:100%">
+      <h4>Retro</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="img/cars2.jpg" alt="Car" style="width:100%">
+      <h4>Rápidos</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column cars">
+    <div class="content">
+      <img src="img/cars3.jpg" alt="Car" style="width:100%">
+      <h4>Clasicos</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+
+  <div class="column people">
+    <div class="content">
+      <img src="img/people1.jpg" alt="People" style="width:100%">
+      <h4>Muchacha</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="img/people2.jpg" alt="People" style="width:100%">
+      <h4>Muchacho</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+  <div class="column people">
+    <div class="content">
+      <img src="img/people3.jpg" alt="People" style="width:100%">
+      <h4>Abuelita</h4>
+      <p>Lorem ipsum dolor..</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+
+<!--  JAVASCRIPT CODE   -->
+<script src="js/main.js"></script>
+</body>
+</html>
